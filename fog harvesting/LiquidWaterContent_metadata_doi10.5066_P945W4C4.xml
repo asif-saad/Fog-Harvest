@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Torregrosa, Alicia</origin>
+        <pubdate>20200109</pubdate>
+        <title>Liquid water content of coastal California fog events, San Mateo County</title>
+        <geoform>csv, txt, pdf</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P945W4C4</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Liquid water content (LWC) measurements were collected during coastal fog events using specialized fog water collection units outfitted with six flat panel mesh collector frames.  Simultaneous meteorological measurements were collected for four variables: wind, temperature, humidity, and solar radiation.  The dataset includes ~12,000 records for two sites.  Site one is in a grassland near the Midpeninsula Regional Open Space District (MROSD) Skyline Field Office (SFO) (WGS 84 Latitude 37.310723, Longitude -122.186204). The second site is in a Douglas fir forest clearing, 50 feet west of the MROSD North Purisima (NPUR) trailhead (Latitude 37.45018, Longitude -122.339407) parking lot. The fog collector consistes of six one-m2 frames. Each frame is outfitted with a different mesh configuration: coated or uncoated and one of three mesh types: 1) double-layer of 35% shade coefficient polyurethane Raschel mesh; 2) stainless steel 0.02 in, 49% shade coeffient wire mesh, or 3) FogHaTin, a 3-dimensional specialty textile polyurethane weave. The coating is a NBD-Nano hydrophobic formulation. Data were collected at SFO in 2016 and 2017 and at NPUR in 2017.</abstract>
+      <purpose>Data were collected for two purposes, 1) explore the potential of fog water collection as a water resource for MROSD public lands in San Mateo County, California during the hot dry summer season (July to September) and 2) compare and assess the collection efficiency of three different mesh types coated or uncoated with NBD-Nano formula.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20160730</begdate>
+          <enddate>20171221</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-122.62115478403</westbc>
+        <eastbc>-121.8685913075</eastbc>
+        <northbc>37.646512902495</northbc>
+        <southbc>36.934175769202</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>coastal</themekey>
+        <themekey>water</themekey>
+        <themekey>water availability</themekey>
+        <themekey>water budget</themekey>
+        <themekey>watershed</themekey>
+        <themekey>fog</themekey>
+        <themekey>monitoring</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:5db78c84e4b0b0c58b5a49cc</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>San Mateo County</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Alicia Torregrosa</cntper>
+          <cntorg>SOUTHWEST REGION: WESTERN GEOGRAPHIC SCI CTR</cntorg>
+        </cntperp>
+        <cntpos>Physical Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>P.O.Box 158</address>
+          <city>Moffett Field</city>
+          <state>CA</state>
+          <postal>94035</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>650-439-2491</cntvoice>
+        <cntemail>atorregrosa@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>USGS Climate and Landuse Mission Area, Midpeninsula Regional Open Space District, NBD-Nano</datacred>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>cross checks were performed to assess accuracy but were not recorded within the files.  Contact Alicia Torregrosa for more details.</attraccr>
+    </attracc>
+    <logic>Data were visually inspected for logical accuracy</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Data were downloaded from data loggers, compiled into spreadsheets, checked for completeness, and converted to volumetrically relevant units (ml). In 2017 the sensors were connected to a Campbell CR1000 data logger and retrieved using the Campbell Scientific PC400 software.  In 2016 the Spectrum tipping buckets were equipped with WatchDog data loggers and data retrieved with SpecWare Pro v9 software.  Records with logical inconsistencies, such as anomalously high water volumes coinciding with field checks that applied water to collectors, or no data were deleted from the spreadsheets.  Volumetric calculations were made using calibration coefficients derived with the calibration procedure (see appendix 1 in Sciencebase files at https://www.sciencebase.gov/catalog/file/get/5db78c84e4b0b0c58b5a49cc) conducted on each tipping bucket rain gauge (TBRG).  Calibration coefficients are embedded in the metadata for each fog collector frame.  The calibration procedure steps are: 1) set up TBRG with water spout connected to peristaltic pump and a data logger to count the number of tips per minute, 2) feed 500 ml of water into the TBRG through a tube connected to the pump set at a constant 6.0V voltage rate, 3) download tip data from data logger and average the tips/500 ml to derive the ml/tip rate for each TBRG.</procdesc>
+        <procdate>20170519</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Alicia Torregrosa</cntper>
+              <cntorg>SOUTHWEST REGION: WESTERN GEOGRAPHIC SCI CTR</cntorg>
+            </cntperp>
+            <cntpos>Physical Scientist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>350 N. Akron Rd.</address>
+              <city>Moffett Field</city>
+              <state>CA</state>
+              <postal>94035</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>650-439-2491</cntvoice>
+            <cntemail>atorregrosa@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Site #1, Skyline field office (SFO) is located in the MROSD Skyline Ridge Preserve at the end of the Sunny Jim Trail Rd upslope of the Ipiwa Trail.  Site # 2, NPUR, is located in the MROSD Purisima Preserve 150 ft west of the Purisima Creek North Ridge Trailhead parking lot.</indspref>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>1.0E-6</latres>
+        <longres>1.0E-6</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>NAD83</horizdn>
+        <ellips>WGS84</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>MROSD_SFO_2017_FOG_DATA.cvs</enttypl>
+        <enttypd>Measurements of liquid water from fog and associated meteorological variables collected at SFO site during 2017</enttypd>
+        <enttypds>Alicia Torregrosa</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>RN</attrlabl>
+        <attrdef>Record Number</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Unique and sequential numerical record identifiers (start 180, end 7105 )</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TS</attrlabl>
+        <attrdef>Timestamp</attrdef>
+        <attrdefs>Recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <udom>[Date hr:min] for each 1 minute interval with a tip of the tipping spoon in the tipping bucket rain gauge (TBRG).  If all six TBRG record zero tips recording stops until one of the TBRG tips again.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_INT</attrlabl>
+        <attrdef>Time interval since last recorded tip.</attrdef>
+        <attrdefs>Calculated from Timestamp attribute as recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>60</rdommax>
+            <attrunit>minutes</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT1UR</attrlabl>
+        <attrdef>total ml/min from 1m2 uncoated raschel mesh calculated as (the number of tips recorded by gauge in one minute) multiplied by (the calibrated volume of 5.1 ml per tip for the tipping bucket rain gauge on Frame #1</attrdef>
+        <attrdefs>Measured by Texas Instruments TE525 tipping bucket rain gauge and recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>40</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT2NBD1R</attrlabl>
+        <attrdef>total ml/min from 1m2 raschel mesh coated with NBD-Nano hydrophobic formulation #1, calculated as (the number of tips recorded by gauge in one minute) multiplied by (the calibrated volume of 5.0 ml per tip for the tipping bucket rain gauge on Frame #2</attrdef>
+        <attrdefs>Measured by Texas Instruments TE525 tipping bucket rain gauge and recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>40</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT3UF</attrlabl>
+        <attrdef>total ml/min from 1m2 uncoated Fog-HA-Tin mesh calculated as (the number of tips recorded by gauge in one minute) multiplied by (the calibrated volume of 4.95 ml per tip for the tipping bucket rain gauge on Frame #3</attrdef>
+        <attrdefs>Measured by Texas Instruments TE525 tipping bucket rain gauge and recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>40</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT4NBD2R</attrlabl>
+        <attrdef>total ml/min from 1m2 raschel mesh coated with NBD-Nano hydrophobic formulation #2, calculated as (the number of tips recorded by gauge in one minute) multiplied by (the calibrated volume of 4.95 ml per tip for the tipping bucket rain gauge on Frame #4</attrdef>
+        <attrdefs>Measured by Texas Instruments TE525 tipping bucket rain gauge and recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>40</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT5UR</attrlabl>
+        <attrdef>total ml/min from 1m2 uncoated raschel mesh, calculated as (the number of tips recorded by gauge in one minute) multiplied by (the calibrated volume of 4.76 ml per tip for the tipping bucket rain gauge on Frame #5</attrdef>
+        <attrdefs>Measured by Texas Instruments TE525 tipping bucket rain gauge and recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>40</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT6NBDF</attrlabl>
+        <attrdef>total ml/min from 1m2 Fog-HA-Tin mesh coated with NBD-Nano hydrophobic formulation on Frame position #6.  (the number of tips recorded by gauge in one minute) multiplied by (the calibrated volume of 4.9 ml per tip for the tipping bucket rain gauge on Frame #6</attrdef>
+        <attrdefs>Measured by Texas Instruments TE525 tipping bucket rain gauge and recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>50</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SR_MAX</attrlabl>
+        <attrdef>Maximum Net Solar Radiation over time interval</attrdef>
+        <attrdefs>Measurements from Campbell Scientific CS300 Pyranometer recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1.5</rdommax>
+            <attrunit>kW/m^2 (kiloWatt per meter square)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SR_MIN</attrlabl>
+        <attrdef>Minumum Net Solar Radiation over time interval</attrdef>
+        <attrdefs>Measurements from Campbell Scientific CS300 Pyranometer recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1.5</rdommax>
+            <attrunit>kW/m^2 (kiloWatt per meter square)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WS_MAX</attrlabl>
+        <attrdef>Maximum wind speed during interval</attrdef>
+        <attrdefs>Measurements from RM Young 05103 anemometer and wind vane recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>13</rdommax>
+            <attrunit>m / s</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WS_AVE</attrlabl>
+        <attrdef>Average wind speed for interval</attrdef>
+        <attrdefs>Measurements from RM Young 05103 anemometer and wind vane recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>10</rdommax>
+            <attrunit>m/s</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WD_AVE</attrlabl>
+        <attrdef>Average wind direction for the interval</attrdef>
+        <attrdefs>Measurements from RM Young 05103 anemometer and wind vane recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>degrees (angle)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WD_SD</attrlabl>
+        <attrdef>Standard deviation of all wind direction vectors</attrdef>
+        <attrdefs>Measurements from RM Young 05103 anemometer and wind vane recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>101.2</rdommax>
+            <attrunit>degrees (angle)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>MROSD_NPUR_2017_FOG_DATA.cvs</enttypl>
+        <enttypd>Measurements of Liquid water from fog and associated meteorological variables collected at NPUR site during 2017</enttypd>
+        <enttypds>Dataset conceived by author based on data downloaded from loggers</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>RN</attrlabl>
+        <attrdef>Record Number</attrdef>
+        <attrdefs>datalogger generated</attrdefs>
+        <attrdomv>
+          <udom>unique record numbers, start 0, end 5337 (5338 total)</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TS</attrlabl>
+        <attrdef>Timestamp</attrdef>
+        <attrdefs>Recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <udom>[Date hr:min] for each 1 minute interval with a tip of the tipping spoon in the tipping bucket rain gauge (TBRG).  If all six TBRG record zero tips recording stops until one of the TBRG tips again.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_INT</attrlabl>
+        <attrdef>Time interval since last recorded tip.</attrdef>
+        <attrdefs>Calculated from Timestamp attribute as recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>60</rdommax>
+            <attrunit>minutes</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT1UM</attrlabl>
+        <attrdef>total ml/min from 1m2 uncoated metal mesh calculated as (the number of tips recorded by gauge in one minute) multiplied by (the calibrated volume of 5.1 ml per tip for the tipping bucket rain gauge on Frame #1</attrdef>
+        <attrdefs>Measured by Texas Instruments TE525 tipping bucket rain gauge and recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>60</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT2UR</attrlabl>
+        <attrdef>total ml/min from 1m2 uncoated raschel mesh calculated as (the number of tips recorded by gauge in one minute) multiplied by (the calibrated volume of 5.0 ml per tip for the tipping bucket rain gauge on Frame #2</attrdef>
+        <attrdefs>Measured by Texas Instruments TE525 tipping bucket rain gauge and recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>60</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT3UF</attrlabl>
+        <attrdef>total ml/min from 1m2 uncoated Fog-HA-Tin mesh calculated as (the number of tips recorded by gauge in one minute) multiplied by (the calibrated volume of 4.95 ml per tip for the tipping bucket rain gauge on Frame #3</attrdef>
+        <attrdefs>Measured by Texas Instruments TE525 tipping bucket rain gauge and recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>300</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT4NBDM</attrlabl>
+        <attrdef>total ml/min from 1m2 metal mesh coated with NBD-Nano hydrophobic formulation. calculated as (the number of tips recorded by gauge in one minute) multiplied by (the calibrated volume of 4.95 ml per tip for the tipping bucket rain gauge on Frame #4</attrdef>
+        <attrdefs>Measured by Texas Instruments TE525 tipping bucket rain gauge and recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>300</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT5NBDR</attrlabl>
+        <attrdef>total ml/min from 1m2 raschel mesh coated with NBD-Nano hydrophobic formulation. calculated as (the number of tips recorded by gauge in one minute) multiplied by (the calibrated volume of 4.76 ml per tip for the tipping bucket rain gauge on Frame #5</attrdef>
+        <attrdefs>Measured by Texas Instruments TE525 tipping bucket rain gauge and recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>400</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT6NBDF</attrlabl>
+        <attrdef>total ml/min from 1m2 Fog-HA-Tin mesh coated with NBD-Nano hydrophobic formulation on Frame position #6.  (the number of tips recorded by gauge in one minute) multiplied by (the calibrated volume of 4.9 ml per tip for the tipping bucket rain gauge on Frame #6</attrdef>
+        <attrdefs>Measured by Texas Instruments TE525 tipping bucket rain gauge and recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>54</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SR_MAX</attrlabl>
+        <attrdef>Maximum Net Solar Radiation over time interval</attrdef>
+        <attrdefs>Measurements from Campbell Scientific CS300 Pyranometer recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+            <attrunit>kW/m^2 (kiloWatt per meter square)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SR_MIN</attrlabl>
+        <attrdef>Minumum Net Solar Radiation over time interval</attrdef>
+        <attrdefs>Measurements from Campbell Scientific CS300 Pyranometer recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+            <attrunit>kW/m^2 (kiloWatt per meter square)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WS_MAX</attrlabl>
+        <attrdef>Maximum wind speed during interval</attrdef>
+        <attrdefs>Measurements from RM Young 05103 anemometer and wind vane recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>11</rdommax>
+            <attrunit>m / s</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WS_AVE</attrlabl>
+        <attrdef>Average wind speed for interval</attrdef>
+        <attrdefs>Measurements from RM Young 05103 anemometer and wind vane recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>5</rdommax>
+            <attrunit>m/s</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WD_AVE</attrlabl>
+        <attrdef>Average wind direction for the interval</attrdef>
+        <attrdefs>Measurements from RM Young 05103 anemometer and wind vane recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>degrees (angle)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WD_SD</attrlabl>
+        <attrdef>Standard deviation of all wind direction vectors</attrdef>
+        <attrdefs>Measurements from RM Young 05103 anemometer and wind vane recorded by Campbell Scientific CR-1000 datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>101.7</rdommax>
+            <attrunit>degrees (angle)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>MROSD_SFO_2016_FOG_DATA.cvs</enttypl>
+        <enttypd>Measurements of Liquid water from fog and associated meteorological variables collected at NPUR site during summer 2016</enttypd>
+        <enttypds>tbd</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>RN</attrlabl>
+        <attrdef>Record Number</attrdef>
+        <attrdefs>Added by author for clarity</attrdefs>
+        <attrdomv>
+          <udom>Unique record numbers for 937 records, start 0, end 936</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TS</attrlabl>
+        <attrdef>Timestamp</attrdef>
+        <attrdefs>Timestamp from the Spectrum Watchdog Datalogger</attrdefs>
+        <attrdomv>
+          <udom>[Date hr:min] for each 15 minute interval</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>F2UR</attrlabl>
+        <attrdef>Volumetric (ml) measure of fog water collected from framed uncoated raschel mesh in position 2 calculated as tips multiplied by calibration  coefficient 146</attrdef>
+        <attrdefs>data downloaded from Watchdog datalogger</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>116.5</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>F3UF</attrlabl>
+        <attrdef>Volumetric (ml) measure of fog water collected from framed uncoated FogHaTin mesh in position 3 calculated as tips multiplied by calibration  coefficient 118</attrdef>
+        <attrdefs>datalogger generated</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>365</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>F4NBDM</attrlabl>
+        <attrdef>Volumetric (ml) measure of fog water collected from framed metal mesh coasted with NBD-Nano hydrophophic formulation in position 4 calculated as tips multiplied by calibration  coefficient 132</attrdef>
+        <attrdefs>datalogger generated</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>130</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>F5NBDR</attrlabl>
+        <attrdef>Volumetric (ml) measure of fog water collected from framed raschel mesh coasted with NBD-Nano hydrophophic formulation in position 5 calculated as tips multiplied by calibration  coefficient 138</attrdef>
+        <attrdefs>datalogger generated</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>320</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>F6NBDF</attrlabl>
+        <attrdef>Volumetric (ml) measure of fog water collected from framed FogHaTin mesh coasted with NBD-Nano hydrophophic formulation in position 6 calculated as tips multiplied by calibration  coefficient 134</attrdef>
+        <attrdefs>datalogger derived</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>220</rdommax>
+            <attrunit>ml</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Alicia Torregrosa</cntper>
+          <cntorg>SOUTHWEST REGION: WESTERN GEOGRAPHIC SCI CTR</cntorg>
+        </cntperp>
+        <cntpos>Physical Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>P.O. Box 158</address>
+          <city>Moffett Field</city>
+          <state>CA</state>
+          <postal>94035</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>650-439-2491</cntvoice>
+        <cntemail>atorregrosa@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.  It is the responsibility of the data user to use the data appropriately. While the Survey strives to make the information in this dataset as accurate as possible, the Survey makes no claim, promise, or guarantee about the accuracy, completeness, or adequacy of the contents of the dataset, and expressly disclaims liability for errors and omissions in the dataset contents. Reference in this metadata to any specific commercial product, process, or service, or the use of any trade, firm or corporation name is for the information and convenience of the public, and does not constitute endorsement, recommendation, or favoring by the Department of the Interior.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20200830</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Alicia Torregrosa</cntper>
+          <cntorg>SOUTHWEST REGION: WESTERN GEOGRAPHIC SCI CTR</cntorg>
+        </cntperp>
+        <cntpos>Physical Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>P.O. Box 158</address>
+          <city>Moffett Field</city>
+          <state>CA</state>
+          <postal>94035</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>650-439-2491</cntvoice>
+        <cntemail>atorregrosa@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
